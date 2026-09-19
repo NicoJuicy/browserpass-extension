@@ -71,11 +71,10 @@ In order to install Browserpass correctly, you have to install two of its compon
 
 ### Verifying authenticity of the Github releases
 
-All release files are signed with a PGP key that is available on [maximbaz.com](https://maximbaz.com/), [keybase.io](https://keybase.io/maximbaz) and various OpenPGP key servers. First, import the public key using any of these commands:
+All release files are signed with a PGP key that is available on [max.baz.nu](https://max.baz.nu/) and various OpenPGP key servers. First, import the public key using any of these commands:
 
 ```
-$ curl https://maximbaz.com/pgp_keys.asc | gpg --import
-$ curl https://keybase.io/maximbaz/pgp_keys.asc | gpg --import
+$ curl https://max.baz.nu/pgp_keys.asc | gpg --import
 $ gpg --recv-keys 56C3E775E72B0C8B1C0C1BD0B5DB77409B11B601
 ```
 
